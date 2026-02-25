@@ -77,10 +77,10 @@ cd RemoteSensing-PointSeg-API
 2. Install Dependencies
 Bash
 pip install -r requirements.txt
-3. ⚠️ DOWNLOAD MODEL WEIGHTS ⚠️
+### 3. ⚠️ DOWNLOAD MODEL WEIGHTS ⚠️
 Due to GitHub's file size limits, the trained PyTorch weights (model_50.pth) are hosted externally.
 
-👉[ https://drive.google.com/file/d/1rtHIqGjgCqPsZCvq9tLBWR56bCFyOmmU/view?usp=sharing ]
+👉[ https://drive.google.com/file/d/1rtHIqGjgCqPsZCvq9tLBWR56bCFyOmmU/view?usp=sharing ] 👈
 
 Instruction: Download the .pth file and place it directly in the root folder of this project.
 

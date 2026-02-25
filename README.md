@@ -1,5 +1,6 @@
- <p align="center">
-  <img src="https://i.imgur.com/ZIsK5Q2.gif" width="150" alt="Orbiting Satellite GIF">
+<p align="center">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3I2a3I2a3I2a3I2a3I2a3I2a3I2a3I2a3I2a3I2a3I/3o7TKSHa5D4h6u6R68/giphy.gif" width="400" alt="Global Scanning GIF" style="border-radius: 10px;">
+</p>
 </p>
    1.png" width="80" alt="Satellite Logo">
   <h1 align="center">🛰️GeoSeg-PointAI: Weakly-Supervised Remote Sensing Segmentation</h1>

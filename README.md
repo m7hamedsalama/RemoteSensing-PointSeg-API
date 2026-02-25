@@ -46,7 +46,7 @@ The model was evaluated on the `LandCover.ai` dataset. We simulated point labels
 *(The model successfully reconstructs complete semantic maps from sparse points!)*
  <p align="center">
   <img src="https://github.com/user-attachments/assets/5b2edcd2-f899-49d0-88b9-317ffc7ddff0" />
-" alt="Visual Comparison Results" width="100%">
+ 
 </p>
 ---
 
@@ -58,3 +58,35 @@ This repository includes a production-ready **Flask REST API** to serve the trai
 ```bash
 git clone [https://github.com/YOUR_GITHUB_USERNAME/RemoteSensing-PointSeg-API.git](https://github.com/YOUR_GITHUB_USERNAME/RemoteSensing-PointSeg-API.git)
 cd RemoteSensing-PointSeg-API
+
+2. Install Dependencies
+Bash
+pip install -r requirements.txt
+3. ⚠️ DOWNLOAD MODEL WEIGHTS ⚠️
+Due to GitHub's file size limits, the trained PyTorch weights (model_50.pth) are hosted externally.
+
+👉 
+
+Instruction: Download the .pth file and place it directly in the root folder of this project.
+
+4. Run the API Server
+Bash
+python app.py
+The server will start locally on http://127.0.0.1:5000/
+
+📡 API Usage
+You can test the API by sending a POST request with a satellite image (.tif, .png, or .jpg).
+
+Using cURL:
+
+Bash
+curl -X POST -F "file=@sample_image.tif" [http://127.0.0.1:5000/predict](http://127.0.0.1:5000/predict) -o output_mask.png
+The API will return a fully colorized segmentation mask as a PNG image.
+
+# 👨‍💻 Author
+Mohamed Salama
+
+Computer Science Undergraduate | AI & Data Science Enthusiast
+
+ LinkedIn Profile[http://www.linkedin.com/in/mohammed-salamaa]
+ Email Me [mohamedsalama.com77@gmail.com]

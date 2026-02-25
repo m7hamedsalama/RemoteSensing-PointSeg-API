@@ -101,12 +101,11 @@ The API will return a fully colorized segmentation mask as a PNG image.
 
 ---
 
-###👨‍💻 Author
+## 👨‍💻 Author
 
-👉 Mohamed Salama
- 
-👨‍💻 Computer Science | AI & Data Science Enthusiast
+👉 **Mohamed Salama** 👨‍💻 Computer Science | AI & Data Science Enthusiast  
 
+✨ [LinkedIn Profile](http://www.linkedin.com/in/mohammed-salamaa)  
+✨ [Email Me](mailto:mohamedsalama.com77@gmail.com)  
 
-✨ LinkedIn Profile[http://www.linkedin.com/in/mohammed-salamaa]
-✨ Email Me [mohamedsalama.com77@gmail.com]
+---

@@ -44,9 +44,8 @@ The model was evaluated on the `LandCover.ai` dataset. We simulated point labels
 
 ### 👁️ Visual Comparison
 *(The model successfully reconstructs complete semantic maps from sparse points!)*
-<p>
-  ر<p align="center">
-  <img src="<img width="1978" height="513" alt="image" src="https://github.com/user-attachments/assets/9d99c6db-d92c-469f-92ea-5bbe3dcee3da" />
+ <p align="center">
+  <img src="https://github.com/user-attachments/assets/5b2edcd2-f899-49d0-88b9-317ffc7ddff0" />
 " alt="Visual Comparison Results" width="100%">
 </p>
 ---

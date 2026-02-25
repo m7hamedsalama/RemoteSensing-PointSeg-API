@@ -1,8 +1,6 @@
-<p align="center">
-  <h1 align="center">🛰️ GeoSeg-PointAI: Weakly-Supervised Remote Sensing Segmentation</h1>
-<p align="center">
+ <p align="center">
   <img src="https://img.icons8.com/external-flatart-icons-lineal-color-flatarticons/64/000000/external-satellite-space-flatart-icons-lineal-color-flatarticons-1.png" width="80" alt="Satellite Logo">
-  <h1 align="center">GeoSeg-PointAI: Weakly-Supervised Remote Sensing Segmentation</h1>
+  <h1 align="center">🛰️GeoSeg-PointAI: Weakly-Supervised Remote Sensing Segmentation</h1>
   <p align="center">
     <strong>End-to-End Semantic Segmentation API trained on highly sparse point-level annotations using a Custom Partial Focal Loss.</strong>
   </p>

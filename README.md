@@ -65,7 +65,7 @@ pip install -r requirements.txt
 3. ⚠️ DOWNLOAD MODEL WEIGHTS ⚠️
 Due to GitHub's file size limits, the trained PyTorch weights (model_50.pth) are hosted externally.
 
-👉 
+👉[ https://drive.google.com/file/d/1rtHIqGjgCqPsZCvq9tLBWR56bCFyOmmU/view?usp=sharing ]
 
 Instruction: Download the .pth file and place it directly in the root folder of this project.
 
@@ -83,10 +83,12 @@ Bash
 curl -X POST -F "file=@sample_image.tif" [http://127.0.0.1:5000/predict](http://127.0.0.1:5000/predict) -o output_mask.png
 The API will return a fully colorized segmentation mask as a PNG image.
 
-# 👨‍💻 Author
-Mohamed Salama
 
-Computer Science Undergraduate | AI & Data Science Enthusiast
+
+### 👨‍💻 Author
+Mohamed Salama
+ 
+Computer Science | AI & Data Science Enthusiast
 
  LinkedIn Profile[http://www.linkedin.com/in/mohammed-salamaa]
  Email Me [mohamedsalama.com77@gmail.com]

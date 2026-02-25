@@ -2,12 +2,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000046,100:1CB5E0&height=250&section=header&text=GeoSeg-PointAI&fontSize=60&fontColor=ffffff&fontAlignY=40&desc=Weakly-Supervised%20Remote%20Sensing%20Segmentation&descAlignY=65&descSize=22&animation=fadeIn" width="100%">
   
   <br><br>
-
-  <img src="https://img.shields.io/badge/Python-3.10+-blue.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch">
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask">
-  <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="Google Cloud">
-  <img src="https://img.shields.io/badge/Computer%20Vision-DeepLabV3-orange?style=for-the-badge" alt="DeepLabV3">
+ 
 </div>
 
 ---
@@ -57,7 +52,7 @@ The model was evaluated on the `LandCover.ai` dataset. We simulated point labels
 *(The model successfully reconstructs complete semantic maps from sparse points!)*
  <p align="center">
   <img src="https://github.com/user-attachments/assets/5b2edcd2-f899-49d0-88b9-317ffc7ddff0" />
-                                      vod
+                                      Visual Comparison🛰
 </p>
 ---
  

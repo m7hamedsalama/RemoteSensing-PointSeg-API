@@ -49,6 +49,15 @@ The model was evaluated on the `LandCover.ai` dataset. We simulated point labels
  
 </p>
 ---
+ 
+
+## ☁️ Cloud Deployment (Google Cloud Platform)
+This project is fully containerized and deployed as a production-ready REST API on **Google Cloud Platform (GCP)**, ensuring high availability and scalability for processing large satellite imagery.
+
+### 🌐 Live API Endpoint
+> **Base URL:** `[PUT_YOUR_GOOGLE_CLOUD_URL_HERE]` *(Currently Active)*
+
+---
 
 ## 🛠️ Installation & Setup (Flask API)
 
@@ -84,7 +93,7 @@ curl -X POST -F "file=@sample_image.tif" [http://127.0.0.1:5000/predict](http://
 The API will return a fully colorized segmentation mask as a PNG image.
 
 
-
+--
 ### 👨‍💻 Author
 Mohamed Salama
  

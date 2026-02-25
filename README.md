@@ -99,12 +99,14 @@ curl -X POST -F "file=@sample_image.tif" [http://127.0.0.1:5000/predict](http://
 The API will return a fully colorized segmentation mask as a PNG image.
 
 
---
+---
 
-###### 👨‍💻 Author
-Mohamed Salama
+####👨‍💻 Author
+
+👉 Mohamed Salama
  
 Computer Science | AI & Data Science Enthusiast
+---
 
  LinkedIn Profile[http://www.linkedin.com/in/mohammed-salamaa]
  Email Me [mohamedsalama.com77@gmail.com]

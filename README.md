@@ -61,7 +61,7 @@ The model was evaluated on the `LandCover.ai` dataset. We simulated point labels
 This project is fully containerized and deployed as a production-ready REST API on **Google Cloud Platform (GCP)**, ensuring high availability and scalability for processing large satellite imagery.
 
 ### 🌐 Live API Endpoint
-> **Base URL:** `[PUT_YOUR_GOOGLE_CLOUD_URL_HERE]` *(Currently Active)*
+> **Base URL:** `[ https://geoseg-api-75536719381.us-central1.run.app]` *(Currently Active)*
 
 ---
 
@@ -95,17 +95,10 @@ You can test the API by sending a POST request with a satellite image (.tif, .pn
 Using cURL:
 
 Bash
-curl -X POST -F "file=@sample_image.tif" [http://127.0.0.1:5000/predict](http://127.0.0.1:5000/predict) -o output_mask.png
+curl -X POST -F "file=@sample_image.tif" https://geoseg-api-75536719381.us-central1.run.app/predict -o output_mask.png
 The API will return a fully colorized segmentation mask as a PNG image.
 
 
 ---
-
-## 👨‍💻 Author
-
-👉 **Mohamed Salama** 👨‍💻 Computer Science | AI & Data Science Enthusiast  
-
-✨ [LinkedIn Profile](http://www.linkedin.com/in/mohammed-salamaa)  
-✨ [Email Me](mailto:mohamedsalama.com77@gmail.com)  
-
+ 
 ---
